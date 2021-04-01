@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.form {
+  display:flex;
+  flex-direction:column;
+  width:70%;
+  margin: 0 auto;
+}
+
+.inputUrl {
+  padding: 10px;
+  font-size: large;
+}
+
+.submitBtn {
+  max-width: 500px;
+  margin: 10px auto;
+  padding:'5px';
+  background-color: coral;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.submitBtn:hover {
+  background-color: chocolate;
+}
